@@ -1,0 +1,380 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa:wght@300&family=Poppins:wght@100&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa:wght@300&family=Nunito:wght@200&family=Poppins:wght@100&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa:wght@300&family=Dancing+Script:wght@600&family=Nunito:wght@200&family=Poppins:wght@100&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Nunito:wght@200&family=Poppins:wght@100&family=Rubik+Iso&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Nunito:wght@200&family=Pacifico&family=Poppins:wght@100&family=Rubik+Iso&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+
+}
+
+#home{
+    
+    background-image: url(./img/rear-view-programmer-working-all-night-long.jpg);
+    width: 100%;
+    height: 750px;
+    background-image: repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+#navbar{
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 50px;
+    
+}
+
+
+
+/* name area as title */
+
+.title{
+    margin-left: 1000px;
+    margin-top: 250px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+#head2{
+    font-size: 55px;
+}
+
+#head3{
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+
+}
+
+#h2{
+    
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+
+/* about section */
+
+
+
+.row{
+    width: 100%;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+}
+
+#aboutgrid{
+    margin-top: 50px;
+    
+}
+
+
+#abouthead{
+    /* margin-left: 20px; */
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+#aboutpara{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;  
+    margin-left: 100px;  
+    line-height: 25px;
+}
+
+/* .download a{ 
+    
+    margin-top: 10px;
+    margin-left: 100px;
+    text-decoration: none;
+    background-color: navy;
+    color: white;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px 18px;
+
+} */
+
+
+.download{
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+
+#hr1{
+    margin-left: 100px;
+}
+
+
+.infoshortcuts{
+
+    margin-left: 100px;
+
+}
+
+
+
+#image{
+    border: 1px solid;
+    margin-left: 230px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+#sha img:hover{
+    transform: scale(1.1);
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+#detail{
+    height: 400px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 50px;
+    
+}
+
+#box{
+    height: 300px;
+    width: 500px;
+    background-color: bisque;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#acd{
+  padding: 10,10px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+
+/* skill section  */
+
+
+#skill{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    
+}
+
+
+
+.heading{
+    margin-left: 100px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.skill-Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-left: 100px;
+
+    /* here 2 section (percentage section,image section) display as grid in same section and their gap between them 2 rem */
+}
+
+#quote{
+    line-height: 25px;
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.bar-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+.bar-box h3,span {
+    font-size: 18px;
+    
+}
+
+.light-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background-color:gray;
+    border-radius: 0.5rem;
+
+}
+
+.percent-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background-color: cadetblue;
+    border-radius: 0.5rem;
+}
+
+.html-bar {
+    width: 96%;
+}
+
+.css-bar {
+    width: 90%;
+}
+
+.js-bar {
+    width: 90%;
+}
+
+
+
+
+
+/* footer section  */
+
+#lin{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+
+#reachme{
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0.833);
+    margin-top: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+  /* footer section */
+
+  .footer{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+  }
+
+  .icondiv{
+
+    color: white;
+    display: flex;
+justify-content: center;
+margin-top: 30px;
+
+}
+
+
+.icon{
+    margin: 0 10px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+justify-content: center;
+align-items: center;
+display: flex;
+background-color: cadetblue;
+text-decoration: none;
+}
+
+
+
+footer{
+    color: aliceblue;
+    margin-top: 2rem;
+    
+    
+}
+
+.up-arrow {
+
+    /* here float is used for move icon to right */
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    /* here flex is used for arrange arrow icon to center */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* here margin is to align icon and border */
+    margin: 1rem 2rem;
+    font-weight: bolder;
+    background-color:cadetblue
+    
+
+}
+
+
+@media(max-width:500px){
+    .title{
+        margin-left: 20px;
+        
+    }
+
+    #home{
+        width: 100%;
+    }
+    
+#about{
+    margin-top: 15px;
+margin-left: auto;
+}
+#image{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.container{
+    margin-top: 450px;
+}
+
+#academic{
+    width: 200px;
+}
+#intern{
+    margin-top: 30px;
+    
+}
+
+#skill{
+    margin-top: 280px;
+    
+}
+
+
+#quote{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#reach{
+    margin-top: 400px;
+}
+
+
+    }
+    
+    @media(max-width:800px){
+        }
+
